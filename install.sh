@@ -11,6 +11,9 @@ cd ../..
 cd llvm/tools
 svn co http://llvm.org/svn/llvm-project/polly/trunk polly
 cd ../..
+cd llvm/tools
+svn co http://llvm.org/svn/llvm-project/lldb/trunk lldb
+cd ../..
 cd llvm/projects
 svn co http://llvm.org/svn/llvm-project/compiler-rt/trunk compiler-rt
 cd ../..
