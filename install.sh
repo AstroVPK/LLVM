@@ -17,6 +17,12 @@ cd ../..
 cd llvm/projects
 svn co http://llvm.org/svn/llvm-project/openmp/trunk openmp
 cd ../..
+cd llvm/projects
+svn co http://llvm.org/svn/llvm-project/libcxx/trunk libcxx
+cd ../..
+cd llvm/projects
+svn co http://llvm.org/svn/llvm-project/libcxxabi/trunk libcxxabi
+cd ../..
 mkdir build
 cd build
 cmake -G "Unix Makefiles" ../llvm
